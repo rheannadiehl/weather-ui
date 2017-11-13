@@ -26,7 +26,7 @@ header h2 {
 	color: #d16428;
 	text-align: center;
 	position: absolute;
-	top: 20%;
+	top: 0%;
 	left: 35%;
 
 }
@@ -34,7 +34,7 @@ header h2 {
 header img {
 	width: 12.5%;
 	position: absolute;
-	top: 25%;
+	top: 5%;
 	left: 12%;
 }
 
