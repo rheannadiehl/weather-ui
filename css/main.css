@@ -222,7 +222,7 @@ main p {
 
 .five .right h3 {
 	margin-top: 25%;
-	margin-left: 23%;
+	margin-left: 2%;
 }
 
 .six .right p {
@@ -242,11 +242,11 @@ main p {
 }
 
 .eight .right p {
-	margin-top: 24.5%;
+	margin-top: 29.5%;
 }
 
 .eight .right h3 {
-	margin-top: 50%;
+	margin-top: 25%;
 	margin-left: 3%;
 }
 @media screen and (min-width:47.5rem){
