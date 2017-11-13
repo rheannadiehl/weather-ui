@@ -1,0 +1,409 @@
+* {
+	box-sizing: border-box;
+	/*border:1px solid red;*/
+}
+
+body, html, #weather, main {
+	/*height: 100%;*/
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1rem;
+}
+
+header {
+	overflow: hidden;
+	background-color: #000000;
+	height: 11rem;
+	width: 100%;
+	position: absolute;
+
+}
+
+header h2 {
+	font-size: 1.7rem;
+	color: #d16428;
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+
+}
+
+header img {
+	width: 12.5%;
+	position: absolute;
+	top: 35%;
+	left: 12%;
+}
+
+@media screen and (min-width:47.5rem){
+	header img {
+		width: 7%;
+		top: 18%;
+		left: 5%;
+	}
+
+	header h2 {
+		font-size: 4rem;
+		top: 0%;
+		left: 70%;
+	}
+
+}
+
+main {
+	overflow: hidden;
+	width: 100%;
+	position: absolute;
+	top: 21%;
+}
+
+main h1 {
+	font-size: 1.5rem;
+}
+
+main h2 {
+	font-size: 1.5rem;
+}
+
+main h3 {
+	font-size: 1.4rem;
+	text-align: center;
+	font-style: italic;
+}
+
+main p {
+	font-size: 1.2rem;
+
+}
+
+.one, .three, .five, .seven {
+	background-color: #e9b932;
+	padding: 1.5rem;
+	overflow: hidden;
+}
+
+.two, .four, .six, .eight {
+	background-color: #d16428;
+	padding: 1.5rem;
+	overflow: hidden;
+
+}
+
+.left {
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.left .icon {
+	margin-top: -25%;
+}
+
+.left h1 {
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.left p {
+	margin-left: 10%;
+}
+
+.one .left p {
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.two .left p {
+	margin-top: 0%;
+}
+
+.two .left .icon {
+	margin-top: -10%;
+}
+
+.three .left p {
+	margin-top: 0%;
+}
+
+.three .left .icon {
+	margin-top: -10%;
+}
+
+.four .left .icon {
+	margin-top: -10%;
+}
+
+.four .left p {
+	margin-top: 0%;
+}
+
+.five .left .icon {
+	margin-top: -10%;
+}
+
+.five .left p {
+	margin-top: 0%;
+}
+
+.seven .left p {
+	margin-top: 12%;
+}
+
+.eight .left .icon {
+	margin-top: -10%;
+}
+
+.eight .left p {
+	margin-top: 0%;
+}
+
+.right {
+	width: 50%;
+	float: left;
+}
+
+.right h2 {
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.right h3 {
+	margin-top: 15%;
+	margin-left: 10%;
+}
+
+.right p {
+	margin-top: 51.5%;
+	margin-left: 65%;
+}
+
+.one .right p {
+	margin-top: 29%;
+}
+
+.one .right h3 {
+	margin-top: 25%;
+	margin-left: 30%;
+}
+
+.two .right h3 {
+	margin-left: -16%;
+	margin-top: 25%;
+}
+
+.two .right p {
+	margin-top: 33%;
+}
+
+.three .right p {
+	margin-top: 33%;
+}
+
+.three .right h3 {
+	margin-left: -14%;
+	margin-top: 25%;
+}
+
+.four .right p {
+	margin-top: 33%;
+}
+
+.four .right h3 { 
+	margin-top: 25%;
+	margin-left: -18%;
+}
+
+.five .right p {
+	margin-top: 32%;
+}
+
+.five .right h3 {
+	margin-top: 25%;
+	margin-right: -15%;
+}
+
+.six .right p {
+	margin-top: 27.5%;
+}
+
+.six .right h3 {
+	margin-top: 25%;
+}
+
+.seven .right p {
+	margin-top: 29%;
+}
+
+.seven .right h3 {
+	margin-top: 25%;
+}
+
+.eight .right p {
+	margin-top: 33%;
+}
+
+.eight .right h3 {
+	margin-top: 25%;
+	margin-right: 10%;
+}
+@media screen and (min-width:47.5rem){
+	
+	.left h1 {
+		margin-left: 5%;
+		margin-top: 2%
+	}
+
+	.right h2 {
+		margin-top: 5%;
+		margin-left: 55%;
+	}
+
+	.one .left .icon {
+		margin-top: -3%;
+		margin-left: 3%;
+	}
+
+	.two .left .icon {
+		margin-top: 0%;
+		margin-left: 3%;
+	}
+
+	.three .left .icon {
+		margin-top: 0%;
+		margin-left: 3%;
+	}
+
+	.four .left .icon {
+		margin-top: 0%;
+		margin-left: 3%;
+	}
+
+	.five .left .icon {
+		margin-top: 0%;
+		margin-left: 3%;
+	}
+
+	.six .left .icon {
+		margin-top: -3%;
+		margin-left: 3%;
+	}
+
+	.seven .left .icon {
+		margin-top: -3%;
+		margin-left: 3%;
+	}
+
+	.eight .left .icon {
+		margin-top: 0%;
+		margin-left: 3%;
+	}
+
+	.left p {
+		margin-left: 5%;
+		margin-top: 40%;
+	}
+
+	.one .left p {
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+
+	.six .left p {
+		margin-top: 3%;
+		margin-left: 5%;
+	}
+
+	.seven .left p {
+		margin-top: 3%;
+		margin-left: 5%;
+	}
+
+	.right {
+		padding-left: 20rem;
+	}
+
+	.one .right h3 {
+		margin-left: 67%;
+		margin-top: 10%;
+	}
+
+	.two .right h3 {
+		margin-left: 40%;
+		margin-top: 10%;
+	}
+
+	.three .right h3 {
+		margin-left: 40%;
+		margin-top: 10%;
+	}
+
+	.four .right h3 {
+		margin-left: 40%;
+		margin-top: 10%;
+	}
+
+	.five .right h3 {
+		margin-left: 45%;
+		margin-top: 10%;
+	}
+
+	.six .right h3 {
+		margin-left: 55%;
+		margin-top: 10%;
+	}
+
+	.seven .right h3 {
+		margin-left: 55%;
+		margin-top: 10%;
+	}
+
+	.eight .right h3 {
+		margin-left: 52%;
+		margin-top: 10%;
+	}
+
+	.one .right p {
+		margin-top: 22.5%;
+		margin-left: 80%;
+	}
+
+	.two .right p {
+		margin-top: 20.5%;
+		margin-left: 80%;
+	}
+
+	.three .right p {
+		margin-top: 20.5%;
+		margin-left: 80%;
+	}
+
+	.four .right p {
+		margin-top: 20.5%;
+		margin-left: 80%;
+	}
+
+	.five .right p {
+		margin-top: 20.5%;
+		margin-left: 80%;
+	}
+
+	.six .right p {
+		margin-top: 22.5%;
+		margin-left: 80%;
+	}
+
+	.seven .right p {
+		margin-top: 20.5%;
+		margin-left: 80%;
+	}
+
+	.eight .right p {
+		margin-top: 20.5%;
+		margin-left: 80%;
+	}
+
+
+}
